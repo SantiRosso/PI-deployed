@@ -1,0 +1,46 @@
+.container{
+    color: rgba(0, 0, 0, 0.407);
+    text-align: center;
+}
+
+.genres{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.divApidb{
+    margin-top: 20px;
+}
+
+.apidb{
+    background-color: black;
+    font-family: 'Silkscreen', cursive;
+    color: white;
+    height: 40px;
+    width: 150px;
+    font-size: smaller;
+    border-radius: 20px;
+    border: none;
+    transition: background-color .5s;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+.apidb:hover{
+    color:white;
+    background-color: rgb(34, 34, 34) ;
+    cursor: pointer;
+}
+
+.title{
+    color: rgba(0, 0, 0, 0.407);
+    text-align: center;
+}
+
+.subDiv{
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,33 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid white; */
+    background-color: rgba(0, 0, 0, 0.785);
+    border-radius: 20px;
+    margin: 10px;
+    align-items: center;
+    /* transition: .5s; */
+    height: 510px;
+    border: 2px solid rgba(0, 0, 0, 0.785)
+}
+
+.container:hover{
+    background-color: rgb(50, 50, 50);
+    border: 2px solid white;
+}
+
+.img{
+    border-radius: 20px;
+    height: 280px;
+    width: 250px;
+    margin-top: 5px;
+    object-fit: cover;
+}
+
+.name{
+    text-align: center;
+}
+
+.genres{
+    color: gray;
+}
